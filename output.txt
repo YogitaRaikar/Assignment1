@@ -1,0 +1,51 @@
+SAMPLE DATA
+FILE1
+0
+1
+1
+2
+2
+3
+4
+5
+6
+7
+8
+18
+19
+19
+29
+
+
+
+FILE2
+-3
+-3
+0
+1
+2
+3
+15
+16
+18
+18
+18
+19
+20
+25
+29
+
+
+
+OUTPUT
+AUB: {-3,0,1,2,3,4,5,6,7,8,15,16,18,19,20,25,29}
+A^B: {0,1,2,3,18,19,29}
+A-B: {4,5,6,7,8}
+No. of comparisons for AUB are 16
+No. of comparisons for A^B are 8
+No. of comparisons for A-B are 16
+Total no. of comparisons are 40
+
+
+
+Time complexity is O(m*k1).
